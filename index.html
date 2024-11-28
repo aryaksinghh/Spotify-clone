@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href=""><img src="assets/logo.svg" alt="logo"></a>
+            <div class="hamburger">
+                <img src="assets/hamburger.svg" alt="">
+            </div>
+        </div>
+        <div class="search-container">
+            <button><img src="assets/home.svg" alt=""></button>
+            <div class="subs-container">
+                <input type="search" class="search-input" placeholder="What do you want to play?">
+                <button class="search-button">
+                    <img src="assets/glass.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="login">
+            <button>Sign up</button>
+            <button>Log in</button>
+        </div>
+    </nav>
+    <main>
+        <div class="left-container leftdisplay">
+            <div class="upper-left">
+                <div class="your-library">
+                    <span>
+                        <a href="#">
+                            <img src="assets/library.svg" alt="">
+                            <h4>Your Library</h3>
+                        </a>
+                    </span>
+                    <span>
+                        <img class="cross" src="assets/cross.svg" alt="">
+                        <button><img src="assets/plus.svg" alt=""></button>
+                    </span>
+                </div>
+                <div class="librarylist display">
+                    <ul>
+                        <!-- <li>
+                            <div class="play-card">
+                                <div class="img-info">
+                                    <img src="assets/music.svg" alt="">
+                                    <div class="song-info">
+                                        <h4>Song name</h4>
+                                        <p>Artist name</p>
+                                    </div>
+                                </div>
+                                <img class="playimg" src="assets/play-button.png" alt="play">
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="create-playlist">
+                    <h3>Create your first playlist</h3>
+                    <h4>It's easy, we'll help you</h4>
+                    <button>Create playlist</button>
+                </div>
+                <div class="browse-podcast">
+                    <h3>Let's find some podcasts to follow</h3>
+                    <h4>We'll keep you updated on new episodes</h4>
+                    <button>Browse Podcasts</button>
+                </div>
+
+            </div>
+            
+            <div class="lower-left">
+                <div class="terms">
+                    <div class="terms1">
+                        <a href="#">Legal</a>
+                        <a href="#">Safety & Privacy Center</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                    </div>
+                    <div class="terms2">
+                        <a href="#">Cookies</a>
+                    </div>
+                    <button>English</button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="lower-left">
+            <div class="terms">
+                <div class="terms1">
+                    <a href="#">Legal</a>
+                    <a href="#">Safety & Privacy Center</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">About Ads</a>
+                    <a href="#">Accessibility</a>
+                </div>
+                <div class="terms2">
+                    <a href="#">Cookies</a>
+                </div>
+                <button>English</button>
+            </div>
+        </div> -->
+
+        <div class="right-container">
+            <h1>Popular albums</h1>
+            <div class="albums">
+                <!-- <div data-folder="Aashiqui 2" class="card">
+                    <button><img src="assets/play.svg" alt=""></button>
+                    <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="ashiqui 2">
+                    <h4>Aashiqui 2</h4>
+                    <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
+                </div>
+                <div data-folder="Glory" class="card">
+                    <button><img src="assets/play.svg" alt=""></button>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="GLORY">
+                    <h4>GLORY</h4>
+                    <p>Yo Yo Honey Singh</p>
+                </div> -->
+                <!-- <div class="card">
+                    <button><img src="assets/play.svg" alt=""></button>
+                    <img src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" alt="Jo tum mere ho">
+                    <h4>Jo Tum Mere Ho</h4>
+                    <p>Anuv Jain</p>
+                </div> -->
+                <!-- <div class="card">
+                    <button><img src="assets/play.svg" alt=""></button>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="Making Memories">
+                    <h4>Making Memories</h4>
+                    <p>Karan Aujla, Ikky</p>
+                </div>
+                <div class="card">
+                    <button><img src="assets/play.svg" alt=""></button>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4"
+                        alt="Yeh jawani hai dewani">
+                    <h4>Yeh Jawaani Hai Deewani</h4>
+                    <p>Pritam</p>
+                </div>
+                <div class="card">
+                    <button><img src="assets/play.svg" alt=""></button>
+                    <img src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae" alt="Moosetape">
+                    <h4>Moosetape</h4>
+                    <p>Sidhu Moose Wala</p>
+                </div>
+                <div class="card">
+                    <button><img src="assets/play.svg" alt=""></button>
+                    <img src="https://i.scdn.co/image/ab67616d00001e027c1549cd0651cf6d18cbea00" alt="Patander">
+                    <h4>Patander</h4>
+                    <p>Arjan Dhillon</p>
+                </div>
+                <div class="card">
+                    <button><img src="assets/play.svg" alt=""></button>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02e62ca3548e739bd85eebbbc9" alt="G.O.A.T.">
+                    <h4>G.O.A.T.</h4>
+                    <p>Diljit Dosanjh</p>
+                </div>
+                <div class="card">
+                    <button><img src="assets/play.svg" alt=""></button>
+                    <img src="https://i.scdn.co/image/ab67616d00001e025e16168f7e8ff4fb8aace6cf" alt="Aj ki raat">
+                    <h4>Aj Ki Raat (From "Stree 2")</h4>
+                    <p>Sachin-Jigar, Amitabh Bhattacharya</p>
+                </div>
+                <div class="card">
+                    <button><img src="assets/play.svg" alt=""></button>
+                    <img src="https://i.scdn.co/image/ab67616d00001e021a8c4618eda885a406958dd0" alt="Still Rollin">
+                    <h4>Still Rollin</h4>
+                    <p>Shubh</p>
+                </div> -->
+            </div>
+            <div class="playbar display2">
+                <div class="song-inform"></div>
+                <div class="playbtn">
+                    <img id="previous" src="assets/skip-previous.png" alt="">
+                    <img id="play" src="assets/play-button.png" alt="">
+                    <img id="next" src="assets/next-button.png" alt="">
+                </div>
+                <div id="vol-dur">
+                    <div class="song-duration"></div>
+                    <div class="volume">
+                        <img src="assets/volume.svg" alt="">
+                        <input type="range" name="volume" id="volume" value="0" min="0" max="100">
+                    </div>
+                </div>
+                <div class="seek-bar">
+                    <input type="range" id="seek" value="0" min="0" max="100" />
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="app.js"></script>
+
+</html>
